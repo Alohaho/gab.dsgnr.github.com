@@ -20,8 +20,6 @@ body{
     background-size: cover;
     background-position: 150x  150px;
 
-   
-   
 }
 .container{
     padding: 10px 10%;
@@ -377,17 +375,15 @@ nav .fas{
 @media only screen and (max-width:600px){
    #header{
 
-      background-image: url(Assets/Background2.png);
+      background-image: url(Assets/phonebackground.png);
       background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-position: center;
       background-size: cover;
-    
+      background-position: 15px;
    }
 
    .header-text{
-      margin-top: 50%;
-      font-size: 16px;
+      margin-top: 80%;
+      font-size: 10px;
       
    }
    .header-text h1{
@@ -447,15 +443,17 @@ nav .fas{
    padding-left: 15px;
 }
 .social-icon p {
+   color: #FFD426;
+   font-weight: 300;
    margin-bottom: 15px;
-   padding-left: 15px;
+   margin-left: 80px
 }
 .social-icon a{
-   margin-right: -8px;
-   margin-left: 15px;
+   margin-right: -40px;
+   margin-left: 60px;
 }
 .button a{
-   margin-left: 15px
+   margin-left: 55px
 }
 .copyright{
    font-size: 14px;
@@ -464,15 +462,15 @@ nav .fas{
    font-size: 12px;
 }
 form .btn2{
-   margin-left: 100px;
+   margin-left: 90px;
    padding: 15px 40px;
    font-size: 18px;
    margin-top: 20px;
    cursor: pointer;
 }
 .contact-right form{
-   width: 100%;
-   padding-right: 30px;
+   width: 97%;
+   padding-right: 19px;
 
 }
 form input, form textarea{
